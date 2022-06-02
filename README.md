@@ -10,6 +10,7 @@ _This is the official repository of the [FaceQAN: Face Image Quality Assessment 
   - [**Table of Contents**](#table-of-contents)
   - [**1. FaceQAN overview**](#1-faceqan-overview)
     - [**Abstract**](#abstract)
+    - [**Motivation**](#motivation)
     - [**Methodology**](#methodology)
     - [**Results**](#results)
   - [**2. How-to**](#2-how-to)
@@ -48,6 +49,11 @@ show that FaceQAN achieves competitive results, while exhibiting
 several desirable characteristics._
 
 
+### **Motivation**
+
+![FaceQAN methodology image](FaceQAN_teaser.png "Visual presentation of the FaceQAN methodology.")
+
+**Visualization of adversarial noise as a function of image quality.** A clear difference can be observed in the characteristics of the adversarial noise between images of different quality. Higher quality images produce noise masks with a more distinct face-like pattern, while the lower quality masks are closer to random noise. FaceQAN takes advantage of the presented observations to estimate the quality of the input images.
 
 
 ### **Methodology**
@@ -63,8 +69,7 @@ several desirable characteristics._
 
 ![FaceQAN methodology image](FaceQAN_results.png "Visual presentation of the FaceQAN methodology.")
 
-**ERC results at FMR=0.001.** FaceQAN is evaluated using three state-of-the-art FR models over four datasets and in comparison to seven state-of-the-art baselines and yields highly competitive results. All results correspond to cross-model (C) quality assessment experiments. For reference purposes, model-specific FaceQAN results, marked (S), are also reported. The figure is best viewed electronically and in color.
-
+**ERC results at FMR=0.001.** FaceQAN is evaluated using three state-of-the-art FR models over four datasets and in comparison to seven state-of-the-art baselines and yields highly competitive results. All results correspond to cross-model (C) quality assessment experiments. For reference purposes, model-specific FaceQAN results, marked (S), are also reported. 
 
 ---
 
@@ -139,7 +144,7 @@ If you use any of the code provided in this repository, please cite the followin
 ``` 
  @inproceedings{babnikICPR2022,
   title={FaceQAN: Face Image Quality Assessment Through Adversarial Noise Exploration},
-  author={Babnik, {\v{Z}}iga and Peer, Peter and Štruc, Vitomir},
+  author={Babnik, {\v{Z}}iga and Peer, Peter and {\v{S}}truc, Vitomir},
   booktitle={ICPR},
   year={2022},
 }
