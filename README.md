@@ -143,9 +143,9 @@ If you use any of the code provided in this repository, please cite the followin
 
 ``` 
  @inproceedings{babnikICPR2022,
-  title={FaceQAN: Face Image Quality Assessment Through Adversarial Noise Exploration},
+  title={{FaceQAN: Face Image Quality Assessment Through Adversarial Noise Exploration}},
   author={Babnik, {\v{Z}}iga and Peer, Peter and {\v{S}}truc, Vitomir},
-  booktitle={ICPR},
+  booktitle={Proceedings of the IAPR International Conference on Pattern Recognition (ICPR)},
   year={2022},
 }
 ``` 
