@@ -1,6 +1,6 @@
 # **FaceQAN** _(Official repository)_
 
-_This is the official repository of the [FaceQAN: Face Image Quality Assessment Through Adversarial Noise Exploration paper](https://ieeexplore.ieee.org/document/9956444, "FaceQAN paper") in proceedings of the ICPR 22 conference._
+_This is the official repository of the [FaceQAN: Face Image Quality Assessment Through Adversarial Noise Exploration paper](https://arxiv.org/abs/2212.02127) in proceedings of the ICPR 22 conference._
 
 ---
 
